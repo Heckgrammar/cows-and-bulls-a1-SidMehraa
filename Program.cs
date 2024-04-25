@@ -38,7 +38,7 @@ namespace CowsAndBulls
         } 
         Console.WriteLine("Number of bulls are " + NumOfBulls + "and the number of cows are " + NumOfCows); 
     } while (NumOfBulls != 4); 
-    Console.WriteLine("Congratulations! You guessed it right!"); 
+    Console.WriteLine("You guessed the number well done"); 
 } 
         }
     }
