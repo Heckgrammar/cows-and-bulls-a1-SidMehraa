@@ -16,7 +16,7 @@ namespace CowsAndBulls
     { 
         Answer = random.Next(1023, 9876); 
     } while (answer.ToString().Distinct().Count() < 4 ); 
-    int cows, bulls; 
+    int NumOfCows, NumOfBulls; 
     do 
     { 
         Console.WriteLine("Guess what four digit number it is"); 
